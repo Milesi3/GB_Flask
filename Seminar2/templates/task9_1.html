@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Вошли</title>
+</head>
+<body>
+    <div>
+        Привет {{ username }}
+    </div>
+    <div>
+        <a href="{{ url_for('logout') }}">
+            <button>Выйти</button>
+        </a>
+    </div>
+</body>
+</html>

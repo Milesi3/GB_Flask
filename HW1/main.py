@@ -4,19 +4,19 @@ app = Flask(__name__)
 
 products_data = [
     {'id': 1, 'name': 'Product 1', 'description': 'Description of Product 1', 'price': 19.99, 'category': 'clothing',
-     'image_url': 'https://avatars.dzeninfra.ru/get-zen_doc/4460346/pub_6085d3c1e2c7114111efc2a2_6085e4803b735b52f85124ce/scale_1200'},
+     'image_url': 'img/foto.jpg'},
     {'id': 2, 'name': 'Product 2', 'description': 'Description of Product 2', 'price': 29.99, 'category': 'clothing',
-     'image_url': 'https://avatars.dzeninfra.ru/get-zen_doc/4460346/pub_6085d3c1e2c7114111efc2a2_6085e4803b735b52f85124ce/scale_1200'},
+     'image_url': 'img/foto.jpg'},
     {'id': 3, 'name': 'Product 3', 'description': 'Description of Product 3', 'price': 39.99, 'category': 'footwear',
-     'image_url': 'https://avatars.dzeninfra.ru/get-zen_doc/4460346/pub_6085d3c1e2c7114111efc2a2_6085e4803b735b52f85124ce/scale_1200'},
+     'image_url': 'img/foto.jpg'},
     {'id': 4, 'name': 'Product 4', 'description': 'Description of Product 3', 'price': 39.99, 'category': 'footwear',
-     'image_url': 'https://avatars.dzeninfra.ru/get-zen_doc/4460346/pub_6085d3c1e2c7114111efc2a2_6085e4803b735b52f85124ce/scale_1200'},
+     'image_url': 'img/foto.jpg'},
     {'id': 5, 'name': 'Product 5', 'description': 'Description of Product 3', 'price': 39.99, 'category': 'footwear',
-     'image_url': 'https://avatars.dzeninfra.ru/get-zen_doc/4460346/pub_6085d3c1e2c7114111efc2a2_6085e4803b735b52f85124ce/scale_1200'},
+     'image_url': 'img/foto.jpg'},
     {'id': 6, 'name': 'Product 6', 'description': 'Description of Product 3', 'price': 39.99, 'category': 'footwear',
-     'image_url': 'https://avatars.dzeninfra.ru/get-zen_doc/4460346/pub_6085d3c1e2c7114111efc2a2_6085e4803b735b52f85124ce/scale_1200'},
+     'image_url': 'img/foto.jpg'},
     {'id': 7, 'name': 'Product 7', 'description': 'Description of Product 3', 'price': 39.99, 'category': 'footwear',
-     'image_url': 'https://avatars.dzeninfra.ru/get-zen_doc/4460346/pub_6085d3c1e2c7114111efc2a2_6085e4803b735b52f85124ce/scale_1200'},
+     'image_url': 'img/foto.jpg'},
     # Add more products with their respective categories here
 ]
 
