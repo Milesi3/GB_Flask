@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>students</title>
+</head>
+<body>
+<div class="row">
+    {% for student in students %}
+    <p class="col-12 col-md-6">Имя пользователя: {{ student.firstname }} {{ student.lastname }}<br>
+        Факультет пользователя: {{ faculty.title }}</p>
+    {% endfor %}
+</div>
+
+</body>
+</html>
